@@ -12,22 +12,24 @@ La structure XML est un format grandement utilisé dans le monde de l'informatiq
 Recherches sur Internet pour voir comment est structuré un DTD
 
 Exemple:
->	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
->	<!DOCTYPE liste_de_gens [
->	 <!ELEMENT liste_de_gens (personne)*>
->	 <!ELEMENT personne (nom, date_de_naissance?, genre?, numero_de_secu?)>
->	 <!ELEMENT nom (#PCDATA)>
->	 <!ELEMENT date_de_naissance (#PCDATA)>
->	 <!ELEMENT genre (#PCDATA | masculin | féminin) "féminin">
->	 <!ELEMENT numero_de_secu (#PCDATA)>
->	]>
->	<liste_de_gens>
->	  <personne>
->	    <nom>Fred Bloggs</nom>
->	    <date_de_naissance>2008-11-27</date_de_naissance>
->	    <genre>masculin</genre>
->	  </personne>
->	</liste_de_gens>
+```xml
+  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <!DOCTYPE liste_de_gens [
+  <!ELEMENT liste_de_gens (personne)*>
+  <!ELEMENT personne (nom, date_de_naissance?, genre?, numero_de_secu?)>
+  <!ELEMENT nom (#PCDATA)>
+  <!ELEMENT date_de_naissance (#PCDATA)>
+  <!ELEMENT genre (#PCDATA | masculin | féminin) "féminin">
+  <!ELEMENT numero_de_secu (#PCDATA)>
+  ]>
+  <liste_de_gens>
+    <personne>
+      <nom>Fred Bloggs</nom>
+      <date_de_naissance>2008-11-27</date_de_naissance>
+      <genre>masculin</genre>
+    </personne>
+  </liste_de_gens>
+```
 
 ### Elaboration d'un DTD par équipe
 Concertez vous en groupes de 5 à 6 personnes afin de définir le DTD requis pour l'élaboration d'un CV.
