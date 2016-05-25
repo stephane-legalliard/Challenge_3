@@ -31,16 +31,17 @@ Exemple:
   </liste_de_gens>
 ```
 
-### Elaboration d'un DTD par équipe
+### Elaboration d'un DTD par équipe de 5 à 6
 Concertez vous en groupes de 5 à 6 personnes afin de définir le DTD requis pour l'élaboration d'un CV.
 
-## Etape 2 :  Redaction du CV
-En respectant le DTD défini en équipe, créez votre CV personnel. 
+## Etape 2 :  Redaction du CV en solo
+En respectant le DTD défini en équipe, créez chacun séparement, votre CV personnel. 
 Un second atelier CV sera réalisé la semaine prochaine par Daïna. Ainsi ne vous souciez pas à outrance du contenu. Mais concentrez vous d'avantage sur le respect du DTD.
 
 ## Etape 3 : Ajoutez du CSS
+Affichez votre XML au sein d'un navigateur. C'est moche hein ?
 Le fichier XML, par défaut n'est pas très gracieux au sein d'un navigateur internet. 
-Ajouter une feuille de style afin de personnaliser votre CV. 
+Ainsi afin de palier à ce problème, ajoutez une feuille de style afin de personnaliser votre CV. 
 
 
 **Que la force soit avec vous!**
