@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE Cv SYSTEM "Cv.dtd">
+
+<Cv>
+<Personne sexe="masculin">
+	<section>
+		<identite>
+			<nom>LE GALLIARD</nom> <prenom>Stéphane</prenom>
+		</identite>
+		<identite>
+			<age>45 ans</age>
+		</identite>
+		<identite>
+			<date_de_naissance>Né le 03/11/1970</date_de_naissance>
+		</identite>
+		<identite>
+			<adresse>7 rue des Glénan</adresse>
+		</identite>
+		<identite>
+			<adresse>35132 Vezin-Le-Coquet</adresse>
+		</identite>
+		<identite>
+			<telephone>02.99.64.86.09 / 06.45.90.83.36</telephone>
+		</identite>
+		<identite>
+			<mail>stephane.legalliard@gmail.com</mail>
+		</identite>
+	</section>
+</Personne>
+
+<experience>
+	<section>
+		<p>+ Expériences Professionelles</p>
+	</section>
+		<poste>
+			<date>Année : 2008</date>
+			<entreprise>Blabla bla</entreprise>
+			<lieu>Rennes</lieu>
+			<descriptif>Blablabla</descriptif>
+		</poste>
+		<poste>
+			<date>Année : 2009</date>
+			<entreprise>Blabla blablablar</entreprise>
+			<lieu>Rennes</lieu>
+			<descriptif>blabla bla blabla</descriptif>
+		</poste>
+		<poste>
+			<date>Année : 2010</date>
+			<entreprise>Blabla blablablar</entreprise>
+			<lieu>Rennes</lieu>
+			<descriptif>blabla bla blabla blablablabla blablabla</descriptif>
+		</poste>
+</experience>
+
+<formation>
+	<section>
+		<p>+ Formation</p>
+	</section>
+		<date>2016</date>
+		<intitule><span class="souligne">Nom :</span> Code Academie</intitule>
+		<organisme><span class="souligne">Organisme :</span> Face</organisme>
+		<lieu><span class="souligne">Ville :</span> Rennes</lieu>
+		<niveau><span class="souligne">  Niveau :</span> Bac+2</niveau>
+</formation>
+
+<competence>
+	<section>
+		<p>+ Compétences</p>
+	</section>
+		<langage>Langages de programmation : HTML/CSS | JavaScript | PHP ..</langage>
+		<niveau>Etoîles : 4 | 2 | 3 ..</niveau>
+</competence>
+
+<divers>
+	<section>
+		<p>+ Divers</p>
+	</section>
+	<section>
+		<langue>Français, Anglais, Espagnol, ...</langue>
+	</section>
+	<section>
+		<loisirs>Basket, Football, Cinéma, ......</loisirs>
+	</section>
+	<section>
+		<loisirs>Associations, ....</loisirs>
+	</section>
+</divers>
+</Cv>
+
