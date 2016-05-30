@@ -29,27 +29,40 @@
 	</section>
 </Personne>
 
+<competence>
+	<section>
+		<p>+ Compétences techniques</p>
+	</section>
+	<poste>
+		<langage>Langages de programmation : HTML/CSS | JavaScript | PHP ...</langage>
+		<niveau>Etoîles : 4 | 2 | 3 ...</niveau>
+	</poste>
+	<poste>
+		<langage>Systèmes d'exploitation : Windows, Linux Ubuntu, ...</langage>
+	</poste>
+</competence>
+
 <experience>
 	<section>
-		<p>+ Expériences Professionelles</p>
+		<p>+ Expériences Professionnelles</p>
 	</section>
 		<poste>
-			<date>Année : 2008</date>
-			<entreprise>Blabla bla</entreprise>
-			<lieu>Rennes</lieu>
-			<descriptif>Blablabla</descriptif>
+			<date>Année : 2014-2016</date>
+			<entreprise>Lactalis</entreprise>
+			<lieu>L'Hermitage</lieu>
+			<descriptif>Conducteur d'installation et de machines automatisées</descriptif>
 		</poste>
 		<poste>
-			<date>Année : 2009</date>
-			<entreprise>Blabla blablablar</entreprise>
+			<date>Année : 2000-2006</date>
+			<entreprise>Stéria</entreprise>
 			<lieu>Rennes</lieu>
-			<descriptif>blabla bla blabla</descriptif>
+			<descriptif>Technicien support informatique</descriptif>
 		</poste>
 		<poste>
-			<date>Année : 2010</date>
-			<entreprise>Blabla blablablar</entreprise>
+			<date>Année : 1995-1999</date>
+			<entreprise>Mac Donald's</entreprise>
 			<lieu>Rennes</lieu>
-			<descriptif>blabla bla blabla blablablabla blablabla</descriptif>
+			<descriptif>Equipier et chef d'équipe</descriptif>
 		</poste>
 </experience>
 
@@ -57,20 +70,28 @@
 	<section>
 		<p>+ Formation</p>
 	</section>
-		<date>2016</date>
-		<intitule><span class="souligne">Nom :</span> Code Academie</intitule>
-		<organisme><span class="souligne">Organisme :</span> Face</organisme>
-		<lieu><span class="souligne">Ville :</span> Rennes</lieu>
-		<niveau><span class="souligne">  Niveau :</span> Bac+2</niveau>
+		<poste>
+			<date>2016</date>
+			<intitule><span class="souligne">Nom :</span> Code Academie</intitule>
+			<organisme><span class="souligne">Organisme :</span> Face</organisme>
+			<lieu><span class="souligne">Ville :</span> Rennes</lieu>
+			<niveau><span class="souligne">  Niveau :</span> Bac+2</niveau>
+		</poste>
+		<poste>
+			<date>2012</date>
+			<intitule><span class="souligne">Nom :</span> Technicien Systèmes et Réseaux </intitule>
+			<organisme><span class="souligne">Organisme :</span> ENI </organisme>
+			<lieu><span class="souligne">Ville :</span> Saint-Herblain</lieu>
+			<niveau><span class="souligne">  Niveau :</span> Bac+2</niveau>
+		</poste>
+		<poste>
+			<date>2000</date>
+			<intitule><span class="souligne">Nom :</span> Technicien Systèmes et Réseaux </intitule>
+			<organisme><span class="souligne">Organisme :</span> IMIE </organisme>
+			<lieu><span class="souligne">Ville :</span> Saint-Herblain</lieu>
+			<niveau><span class="souligne">  Niveau :</span> Bac+2</niveau>
+		</poste>
 </formation>
-
-<competence>
-	<section>
-		<p>+ Compétences</p>
-	</section>
-		<langage>Langages de programmation : HTML/CSS | JavaScript | PHP ..</langage>
-		<niveau>Etoîles : 4 | 2 | 3 ..</niveau>
-</competence>
 
 <divers>
 	<section>
