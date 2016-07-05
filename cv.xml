@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/xsl" href="cv.xsl"?>
 <!DOCTYPE Cv SYSTEM "Cv.dtd">
-
 <Cv>
+	<section>
+		<p>Développeur Web Junior</p>
+	</section>
 <Personne sexe="masculin">
 	<section>
 		<identite>
-			<nom>LE GALLIARD</nom> <prenom>Stéphane</prenom>
+			<nom>LE GALLIARD</nom> <prenom>    Stéphane</prenom>
 		</identite>
 		<identite>
 			<age>45 ans</age>
@@ -15,10 +18,10 @@
 			<date_de_naissance>Né le 03/11/1970</date_de_naissance>
 		</identite>
 		<identite>
-			<adresse>7 rue des Glénan</adresse>
+			<adresse1>7 rue des Glénan</adresse1>
 		</identite>
 		<identite>
-			<adresse>35132 Vezin-Le-Coquet</adresse>
+			<adresse2>35132 Vezin-Le-Coquet</adresse2>
 		</identite>
 		<identite>
 			<telephone>02.99.64.86.09 / 06.45.90.83.36</telephone>
@@ -34,11 +37,11 @@
 		<p>+ Compétences techniques</p>
 	</section>
 	<poste>
-		<langage>Langages de programmation : HTML/CSS | JavaScript | PHP ...</langage>
+		<langage1>Langages de programmation : HTML/CSS | JavaScript | PHP ...</langage1>
 		<niveau>Etoîles : 4 | 2 | 3 ...</niveau>
 	</poste>
 	<poste>
-		<langage>Systèmes d'exploitation : Windows, Linux Ubuntu, ...</langage>
+		<langage2>Systèmes d'exploitation : Windows, Linux Ubuntu, ...</langage2>
 	</poste>
 </competence>
 
@@ -50,13 +53,13 @@
 			<date>Année : 2014-2016</date>
 			<entreprise>Lactalis</entreprise>
 			<lieu>L'Hermitage</lieu>
-			<descriptif>Conducteur d'installation et de machines automatisées</descriptif>
+			<descriptif>Conducteur de machines automatisées</descriptif>
 		</poste>
 		<poste>
-			<date>Année : 2000-2006</date>
-			<entreprise>Stéria</entreprise>
-			<lieu>Rennes</lieu>
-			<descriptif>Technicien support informatique</descriptif>
+			<date1>Année : 2000-2006</date1>
+			<entreprise1>Stéria</entreprise1>
+			<lieu1>Rennes</lieu1>
+			<descriptif1>Technicien support informatique</descriptif1>
 		</poste>
 		<poste>
 			<date>Année : 1995-1999</date>
@@ -108,4 +111,5 @@
 	</section>
 </divers>
 </Cv>
+
 
